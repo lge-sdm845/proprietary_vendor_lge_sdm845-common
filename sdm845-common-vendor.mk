@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libfm-hci.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
-    vendor/lge/sdm845-common/proprietary/system_ext/lib/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsdm-disp-apis.qti.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.cvp@1.0.so \
@@ -45,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
-    vendor/lge/sdm845-common/proprietary/system_ext/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdm-disp-apis.qti.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so \
     vendor/lge/sdm845-common/proprietary/system_ext/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.cvp@1.0.so \
@@ -95,6 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/lge/sdm845-common/proprietary/vendor/bin/mdm_helper:$(TARGET_COPY_OUT_VENDOR)/bin/mdm_helper \
     vendor/lge/sdm845-common/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
+    vendor/lge/sdm845-common/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
     vendor/lge/sdm845-common/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/lge/sdm845-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/lge/sdm845-common/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
@@ -102,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/lge/sdm845-common/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
     vendor/lge/sdm845-common/proprietary/vendor/bin/ppd:$(TARGET_COPY_OUT_VENDOR)/bin/ppd \
-    vendor/lge/sdm845-common/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
     vendor/lge/sdm845-common/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
     vendor/lge/sdm845-common/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
     vendor/lge/sdm845-common/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
@@ -180,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/lge/sdm845-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/lge/sdm845-common/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
-    vendor/lge/sdm845-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/lge/sdm845-common/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/lge/sdm845-common/proprietary/vendor/etc/init/tloc_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tloc_daemon.rc \
     vendor/lge/sdm845-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
@@ -210,8 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/lge/sdm845-common/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/lge/sdm845-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
-    vendor/lge/sdm845-common/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
-    vendor/lge/sdm845-common/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
     vendor/lge/sdm845-common/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/lge/sdm845-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/lge/sdm845-common/proprietary/vendor/firmware/a630_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b00 \
@@ -219,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/firmware/a630_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.b02 \
     vendor/lge/sdm845-common/proprietary/vendor/firmware/a630_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.elf \
     vendor/lge/sdm845-common/proprietary/vendor/firmware/a630_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_zap.mdt \
-    vendor/lge/sdm845-common/proprietary/vendor/firmware/a640_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_gmu.bin \
     vendor/lge/sdm845-common/proprietary/vendor/lib/LGDataFeature_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/LGDataFeature_vendor.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.dsi.ant@1.0.so \
@@ -236,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm845.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.dsi.ant@1.0-impl.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib/hw/hwcomposer.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.sdm845.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.sdm845.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
@@ -315,6 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
@@ -338,7 +332,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymasterdeviceutils.so \
@@ -352,6 +346,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpvr.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
@@ -367,6 +362,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
@@ -378,8 +374,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-vndapis.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmcore.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
@@ -395,6 +392,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libunified_sysfs_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunified_sysfs_vendor.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
@@ -417,6 +415,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.3.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.lge.hardware.filehandle@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.filehandle@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
@@ -457,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.dsi.ant@1.0-impl.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/hwcomposer.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm845.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm845.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.vss_ims@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.vss_ims@1.0-impl.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
@@ -586,7 +590,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libhexagon_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_stub.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
@@ -622,6 +625,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
+    vendor/lge/sdm845-common/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libpatchcodeid_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpatchcodeid_vendor.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
@@ -671,7 +675,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
@@ -735,9 +738,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/unnhal-acc-hvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hvx.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
@@ -747,7 +747,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.lge.hardware.lgdata@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lgdata@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.lge.hardware.lgdata@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.lgdata@1.1.so \
-    vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.lge.hardware.property@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.property@2.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.lge.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.radio@2.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.lge.hardware.vss_ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.vss_ims@1.0.so \
     vendor/lge/sdm845-common/proprietary/vendor/lib64/vendor.nxp.nxpnfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@2.0.so \
