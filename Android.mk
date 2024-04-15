@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sdm845-common)
+ifneq ($(filter judyp judypn judyln caymanslm style3lm,$(TARGET_DEVICE)),)
 
 endif
