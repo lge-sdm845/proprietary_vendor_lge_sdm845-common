@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter judyp judypn judyln caymanslm style3lm,$(TARGET_DEVICE)),)
+ifneq ($(filter judyp judypn judyln g710n g710ulm caymanslm style3lm,$(TARGET_DEVICE)),)
 
 endif
