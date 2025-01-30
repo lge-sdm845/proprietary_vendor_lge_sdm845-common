@@ -143,15 +143,6 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libQTEEConnector_vendor \
@@ -212,7 +203,6 @@ PRODUCT_PACKAGES += \
     libmm-hdcpmgr \
     libmmosal \
     libmmosal_vendor \
-    libmulawdec \
     libnetmgr \
     libops \
     libpatchcodeid_vendor \
@@ -290,12 +280,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.voiceprint@1.0 \
     com.qualcomm.qti.bluetooth_audio@1.0 \
-    libOmxDsdDec \
     libOmxVideoDSMode \
-    libadpcmdec \
+    libOmxVpp \
     libcppf \
     libdrc \
-    libdsd2pcm \
     libfastcrc \
     liblgehdcpek \
     libsmwrapper \
