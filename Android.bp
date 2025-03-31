@@ -8158,6 +8158,7 @@ cc_prebuilt_library_shared {
                 "libqmi_common_so",
                 "liblog",
                 "libutils",
+                "libril",
                 "libvss_common_idl",
                 "libqmi_client_helper",
                 "libqmi",
@@ -8172,7 +8173,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -10164,6 +10164,7 @@ cc_prebuilt_library_shared {
                 "libdsutils",
                 "libcutils",
                 "libutils",
+                "libril",
                 "librilutils",
                 "libril-qc-radioconfig",
                 "libril-qc-ltedirectdisc",
@@ -10215,7 +10216,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -10258,6 +10258,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "libutils",
+                "libril",
                 "libdiag",
                 "libc++",
                 "libc",
@@ -10267,7 +10268,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -10645,6 +10645,7 @@ cc_prebuilt_library_shared {
                 "libqmi_cci",
                 "libvss_resim_idl",
                 "liblog",
+                "libril",
                 "libvss_resim_iface",
                 "libqmi_encdec",
                 "libutils",
@@ -10656,7 +10657,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
